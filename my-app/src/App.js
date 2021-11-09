@@ -3,12 +3,14 @@ import logo from "./logo.svg";
 import Header from "./header";
 import styled from "styled-components";
 import Sidebar from "./sidebar";
+import Screen from "./new";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Sidebar />
+      {/* <Header />
+      <Sidebar /> */}
+      <Screen />
     </div>
   );
 }
